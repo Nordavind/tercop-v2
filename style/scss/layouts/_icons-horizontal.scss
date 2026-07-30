@@ -1,0 +1,57 @@
+.icons-horizontal {
+  padding: 140px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icons-h-wrapper {
+  width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+
+  & img {
+    height: 100px;
+  }
+}
+
+.icons-h-chevron {
+  width: 17px;
+  align-self: center;
+}
+
+// Mobile - Llamados en _mobile.scss
+
+@mixin icons-horizontal--lg() {
+  .icons-horizontal {
+    padding: 100px 0;
+  }
+}
+
+@mixin icons-horizontal--md() {
+  .icons-horizontal {
+    flex-flow: column nowrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons-h-wrapper {
+    width: 100%;
+  }
+
+  .icons-h-chevron {
+    transform: rotate(90deg);
+  }
+}
+
+@mixin icons-horizontal--sm() {
+  .icons-horizontal {
+    padding: 120px 0;
+  }
+}
+

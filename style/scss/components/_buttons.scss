@@ -1,0 +1,37 @@
+.leer-mas-link {
+  display: block;
+  padding-bottom: 15px;
+  border-bottom: 2px solid $color-primary;
+  width: 200px;
+  text-decoration: none;
+
+  p {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    color: $color-primary;
+    transition: all .3s ease-in-out;
+  }
+
+  p:hover {
+    color: $color-wht;
+  }
+}
+
+.img-link {
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    opacity: 50%;
+  }
+}
+
+// Mobile - Llamados en _mobile.scss
+
+@mixin buttons--sm() {
+  .leer-mas-link {
+    padding-bottom: 12px;
+    width: 150px;
+  }
+}

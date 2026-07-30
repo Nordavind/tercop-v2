@@ -1,0 +1,173 @@
+.mision-vision-wrapper {
+  padding: 140px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 60px;
+}
+
+.mis-vis-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 50px;
+  align-items: center;
+
+  img {
+    width: 20px;
+  }
+}
+
+.valores-wrapper {
+  padding-top: 80px;
+  padding-bottom: 140px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 30px;
+}
+
+.valores-item {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 40px;
+  align-items: center;
+  min-height: 60px;
+
+  h4 {
+    min-width: 230px;
+  }
+
+  .chevron-mis-vis {
+    width: 10px;
+  }
+}
+
+.equipo-wrapper {
+  padding-top: 80px;
+  padding-bottom: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px 60px;
+}
+
+.equipo-item {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 40px;
+  align-items: center;
+
+  ul {
+    font-family: $font-uno;
+    color: $color-gray;
+    font-size: 0.875rem;
+    line-height: 1.1563rem;
+    letter-spacing: 0.03rem;
+    font-weight: 300;
+    text-align: center;
+
+    li {
+      color: $color-gray;
+      padding-bottom: 18px;
+    }
+  }
+}
+
+.equipo-img {
+  background-color: #dcdada;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+}
+
+.equipo-nombre {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+
+  h5 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+
+// Mobile - Llamados en _mobile.scss
+
+@mixin quienes-somos--lg() {
+  .mision-vision-wrapper {
+    padding: 100px 0;
+  }
+
+  .valores-wrapper {
+    padding-bottom: 100px;
+  }
+
+  .equipo-wrapper {
+    padding-bottom: 100px;
+  }
+}
+
+@mixin quienes-somos--md() {
+  .mision-vision-wrapper {
+    gap: 80px;
+  }
+
+  .mis-vis-wrapper {
+    flex-flow: column nowrap;
+    gap: 30px;
+
+    &-reverse {
+      flex-flow: column-reverse nowrap;
+    }
+
+    img {
+      transform: rotate(90deg);
+    }
+  }
+
+  .valores-wrapper {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    gap: 100px;
+  }
+
+  .valores-item {
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-items: center;
+    min-height: 60px;
+
+    h4 {
+      min-width: 0px;
+      text-align: center;
+    }
+
+    .chevron-mis-vis {
+      width: 10px;
+      transform: rotate(90deg);
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .equipo-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 60px 0px;
+  }
+
+  .equipo-item {
+    gap: 30px;
+    ul {
+  
+      li {
+        color: $color-gray;
+        padding-bottom: 14px;
+      }
+    }
+  }
+}

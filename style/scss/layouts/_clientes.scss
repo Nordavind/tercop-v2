@@ -1,0 +1,17 @@
+.clientes-main {
+  padding: 120px 0px;
+}
+
+// Mobile - Llamados en _mobile.scss
+
+@mixin clientes--lg() {
+  .clientes-main {
+    padding: 80px 0px;
+  }
+}
+
+@mixin clientes--md() {
+  .clientes-main {
+    padding: 50px 0px;
+  }
+}

@@ -1,0 +1,155 @@
+.bullet-line-list {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 30px;
+  margin-left: 10px;
+  border-left: 1px solid $color-primary;
+  justify-content: center;
+
+  &-wht {
+    border-left: 1px solid $color-wht;
+  }
+}
+
+.bl-list-item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  gap: 15px;
+  margin-left: -6px;
+
+  .bl-list-ico {
+    position: relative;
+    background-color: $color-primary;
+    min-width: 10px;
+    min-height: 10px;
+    
+    &.bl-list-ico-wht {
+      background-color: $color-wht;
+    }
+  }
+}
+
+.bl-list-item:first-child {
+  .bl-list-ico {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 15px;
+      background-color: $color-secondary;
+      bottom: 10px;
+      left: 0px;
+    }
+  }
+
+  .bl-list-ico-fix-secondary-corto {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 15px;
+      background-color: $color-secondary;
+      bottom: 10px;
+      left: 0px;
+    }
+  }
+
+  .bl-list-ico-fixthird {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 15px;
+      background-color: $color-third;
+      bottom: 10px;
+      left: 0px;
+    }
+  }
+
+  .bl-list-ico-fix-third-corto {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 15px;
+      background-color: $color-third;
+      bottom: 10px;
+      left: 0px;
+    }
+  }
+
+  .bl-list-ico-wht {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 15px;
+      background-color: $color-primary;
+      bottom: 10px;
+      left: 0px;
+    }
+  }
+}
+
+.bl-list-item:last-child {
+  .bl-list-ico {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 120px;
+      background-color: $color-secondary;
+      top: 10px;
+      left: 0px;
+    }
+  }
+
+  .bl-list-ico-fix-secondary-corto {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 15px;
+      background-color: $color-secondary;
+      top: 10px;
+      left: 0px;
+    }
+  }
+
+  .bl-list-ico-fix-third {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 120px;
+      background-color: $color-third;
+      top: 10px; 
+      left: 0px;
+    }
+  }
+
+  .bl-list-ico-fix-third-corto {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 15px;
+      background-color: $color-third;
+      top: 10px; 
+      left: 0px;
+    }
+  }
+
+  .bl-list-ico-wht {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 120px;
+      background-color: $color-primary;
+      top: 10px; 
+      left: 0px;
+    }
+  }
+}

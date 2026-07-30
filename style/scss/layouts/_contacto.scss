@@ -1,0 +1,68 @@
+.contacto-main {
+  padding: 80px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 50px;
+
+  * {
+    font-family: $font-uno;
+    color: $color-wht;
+    font-size: 0.875rem;
+    letter-spacing: 0.03rem;
+    font-weight: 400;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: $color-wht;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: 1px solid $color-wht;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  #form-nombre,
+  #form-correo,
+  #form-mensaje {
+    padding-left: 15px;
+    border: 1px solid $color-wht;
+    background: $color-primary;
+  }
+
+  #form-nombre,
+  #form-correo {
+    flex: 1 0 140px;
+    height: 45px;
+  }
+
+  #form-mensaje {
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    resize: none;
+  }
+
+  #form-submit {
+    text-align: center;
+    text-decoration: none;
+    width: 170px;
+    padding: 15px 0px;
+    border: 1px solid $color-wht;
+    background: $color-primary;
+    transition: all .3s ease-in-out;
+    margin: auto;
+
+    &:hover {
+      color: $color-primary;
+      background: $color-wht;
+    }
+  }
+}
+

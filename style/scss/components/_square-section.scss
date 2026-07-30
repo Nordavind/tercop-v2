@@ -1,0 +1,221 @@
+.square-section {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  //background-color: $color-primary;
+  background: linear-gradient(140deg, #ff7727 0%, $color-primary 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.ss-left {
+    top: -115px;
+    left: 100px;
+  }
+
+  &.ss-center {
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &.mis-vis-square {
+    position: relative;
+    min-width: 220px;
+    min-height: 220px;
+    max-width: 220px;
+    max-height: 220px;
+    background: none;
+    background-color: $color-primary;
+  }
+
+  & p {
+    font-family: $font-dos;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.30rem;
+    color: $color-wht;
+    text-transform: uppercase;
+  }
+
+  & img {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 30px;
+
+  }
+}
+
+.slice-detail-header-a {
+  width: 100px;
+  height: 40px;
+  background-color: $color-secondary;
+  position: absolute;
+}
+
+.slice-detail-header-b {
+  width: 1065px;
+  height: 40px;
+  background-color: $color-secondary;
+  position: absolute;
+  left: 220px;
+}
+
+.slice-detail {
+  position: absolute;
+  width: 220px;
+  height: 40px;
+
+  &.up-right {
+    top: 0px;
+    right: 100px;
+  }
+
+  &.up-left {
+    top: 0px;
+    left: 100px;
+  }
+
+  &.down-right {
+    bottom: 0px;
+    right: 100px;
+  }
+
+  &.down-left {
+    bottom: 0px;
+    left: 100px;
+  }
+}
+
+.slice-detail-color-primary {
+  background-color: $color-primary;
+}
+
+.slice-detail-color-secondary {
+  background-color: $color-secondary;
+}
+
+.slice-detail-color-third {
+  background-color: $color-third;
+}
+
+.slice-detail-color-gray {
+  background-color: $color-gray;
+}
+
+// Mobile - Llamados en _mobile.scss
+
+@mixin square-section--lg() {
+  .square-section {
+    width: 180px;
+    height: 180px;
+
+    &.ss-left {
+      top: -90px;
+      left: 40px;
+    }
+
+    &.ss-center {
+      top: -90px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+
+    &.mis-vis-square {
+      min-width: 180px;
+      min-height: 180px;
+    }
+
+    & p {
+      font-size: 1.3rem;
+      line-height: 1.3rem;
+    }
+  }
+
+  .slice-detail-header-a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .slice-detail-header-b {
+    left: 160px;
+    height: 40px;
+  }
+
+  .slice-detail-secondary {
+    right: 40px;
+    width: 180px;
+    height: 40px;
+  }
+
+  .slice-detail {
+    width: 180px;
+
+    &.up-right {
+      right: 40px;
+    }
+  
+    &.up-left {
+      left: 40px;
+    }
+  
+    &.down-right {
+      right: 40px;
+    }
+  
+    &.down-left {
+      left: 40px;
+    }
+  }
+}
+
+
+@mixin square-section--sm() {
+  .square-section {
+
+    &.ss-left {
+      top: -90px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+
+  .slice-detail-a {
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 30px;
+  }
+
+  .slice-detail-header-a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slice-detail-header-b {
+    left: 130px;
+    height: 30px;
+  }
+
+  .slice-detail {
+    transform: translate(-50%, 0);
+    height: 30px;
+
+    &.up-right {
+      left:50%;
+    }
+  
+    &.up-left {
+      left:50%;
+    }
+  
+    &.down-right {
+      left:50%;
+    }
+  
+    &.down-left {
+      left:50%;
+    }
+  }
+}

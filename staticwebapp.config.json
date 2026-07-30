@@ -1,0 +1,9 @@
+{
+    "trailingSlash": "auto",
+    "routes": [
+    {
+      "route": "/agente",
+      "rewrite": "http://transdepot.tercop.cl/transdepot.portal/#!/Appointment/MainSchedule/"
+    }
+    ]
+}

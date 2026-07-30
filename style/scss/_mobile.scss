@@ -1,0 +1,61 @@
+// Hoverfix
+@media (hover: hover) {
+  @include footer--hoverfix(); // components/_footer.scss
+}
+
+// Large (especial a)
+@media screen and (max-width: 1300px) {
+  @include navbar--esp-a(); // components/_navbar.scss
+  @include back-top--esp-a(); // components/_back-top.scss
+}
+
+// Large (especial b)
+@media screen and (max-width: 1140px) {
+  @include footer--esp-b(); // components/_footer.scss
+}
+
+// Large (lg)
+@media screen and (max-width: 992px) {
+  @include basic--lg(); // base/_basic.scss
+  @include typo--lg(); // base/_typo.scss
+  @include square-section--lg(); // components/_square-section.scss
+  @include footer--lg(); // components/_footer.scss
+  @include back-top--lg(); // components/_back-top.scss
+  @include post-header--lg(); // layouts/_post-header.scss
+  @include icons-horizontal--lg(); // layouts/_icons-horizontal.scss
+  @include services-two-col--lg(); // layouts/_services-two-col.scss
+  @include clients-three-col--lg(); // layouts/_clients-three-col.scss
+  @include quienes-somos--lg(); // layouts/_quienes-somos.scss
+  @include servicios--lg(); // layouts/_tecnologia.scss
+  @include clientes--lg(); // layouts/_clientes.scss
+}
+
+// Medium (md)
+@media screen and (max-width: 768px) {
+  @include typo--md(); // base/_typo.scss
+  @include footer--md(); // components/_footer.scss
+  @include post-header--md(); // layouts/_post-header.scss
+  @include icons-horizontal--md(); // layouts/_icons-horizontal.scss
+  @include services-two-col--md(); // layouts/_services-two-col.scss
+  @include quienes-somos--md(); // layouts/_quienes-somos.scss
+  @include tecnologia--md(); // layouts/_tecnologia.scss
+  @include servicios--md(); // layouts/_tecnologia.scss
+  @include clientes--md(); // layouts/_clientes.scss
+}
+
+// Small (sm)
+@media screen and (max-width: 576px) {
+  @include typo--sm(); // base/_typo.scss
+  @include basic--sm(); // base/_basic.scss
+  @include navbar--sm(); // components/_navbar.scss
+  @include buttons--sm(); // components/_buttons.scss
+  @include footer--sm(); // components/_footer.scss
+  @include heros--sm(); // components/_heros.scss
+  @include square-section--sm(); // components/_square-section.scss
+  @include post-header--sm(); // layouts/_post-header.scss
+  @include icons-horizontal--sm(); // layouts/_icons-horizontal.scss
+  @include services-two-col--sm(); // layouts/_services-two-col.scss
+  @include clients-three-col--sm(); // layouts/_clients-three-col.scss
+  @include tecnologia--sm(); // layouts/_tecnologia.scss
+  @include servicios--sm(); // layouts/_tecnologia.scss
+}

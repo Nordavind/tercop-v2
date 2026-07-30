@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Tercop</title>
+  <meta name="description"
+    content="TERCOP contacto@tercop.cl - +569 1234 5678 - Cam. la Farfana #400, Pudahuel, Región Metropolitana de Santiago.">
+  <link rel="icon" href="./img/favico.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="lang-bar">
+        <a class="activo" href="./index.html">Español</a>
+        <a href="./en/index.html">English</a>
+      </div>
+      <div class="nav-container">
+        <div class="nav-left-wrapper">
+          <a href="./index.html"><img class="logo-header" src="./img/logo-tercop.svg" alt="logotipo tercop"></a>
+          <button class="hamb-link" onclick="toggleNavBar(this)">
+            <img class="hamburgeja-ico" src="./img/hamburgeja-ico.svg" alt="icono de abrir menu navegacion movil">
+          </button>
+          <script type="text/javascript" src="./scripts/navbar.js"></script>
+        </div>
+        <nav id="navbar-id" class="nav-right-wrapper">
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Quienes somos</a></li>
+            <li><a href="./terminal.html">Terminal</a></li>
+            <li><a href="./tecnologia.html">Tecnología</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./clientes.html">Clientes</a></li>
+            <li><a class="activo" href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <figure class="container-hero hero-12">
+      <div class="slice-detail-header-a"></div>
+      <div class="slice-detail-header-b"></div>
+    </figure>
+    <div class="container-basic color-b">
+      <div class="contacto-main">
+        <div class="title-b-wrapper">
+          <img src="./img/chevron-r-w.svg" alt="icono chevron adorno">
+          <p class="section-title-p section-title-p-wht">Contacto</p>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="0c91d645-ee2f-4211-b675-3c2f7a7a6522">
+          <input type="hidden" name="subject" value="Lead formulario Tercop Web ES">
+          <input type="hidden" name="from_name" value="Tercop Web">
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          <input type="text" id="form-nombre" name="First Name" placeholder="Nombre" required>
+          <input type="email" id="form-correo" name="email" placeholder="Correo Electrónico" required>
+          <textarea id="form-mensaje" name="message" required>Mensaje</textarea>
+          <input type="submit" id="form-submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+    <section class="container-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.525535922847!2d-70.81178952354838!3d-33.452196297602924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c3c023b0dd2d%3A0xa0948cc1fe56a45!2sTERCOP!5e1!3m2!1ses!2scl!4v1705339988086!5m2!1ses!2scl"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer class="container-basic footer-wrapper">
+      <div class="footer-col-a">
+        <a href="./index.html"><img class="logo-header" src="./img/logo-tercop.svg" alt="logotipo tercop"></a>
+        <div class="navbar-footer">
+          <ul>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./documents/tercop-spa-2800.pdf" target="_blank">Certificado ISO 28000</a></li>
+            <li><a href="./index.html">©TERCOP 2024</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-col-b">
+        <div class="footer-title-wrapper">
+          <img src="./img/envelope-ico.svg">
+          <p>Suscríbete a nuestro newsletter</p>
+        </div>
+        <div class="newsletter-form-wrapper">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0c91d645-ee2f-4211-b675-3c2f7a7a6522">
+            <input type="hidden" name="subject" value="Solicitud newsletter Tercop Web ES">
+            <input type="hidden" name="from_name" value="Tercop Web">
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="email" id="nl-form-correo" name="email" placeholder="Correo Electrónico" required>
+            <input type="submit" id="nl-form-submit" value="Enviar">
+          </form>
+        </div>
+        <div class="rrss-footer">
+          <a href="https://www.instagram.com/tercop.spa/"><img src="./img/instagram-ico-c.svg" alt="icono instagram"></a>
+          <a href="https://www.linkedin.com/company/tercop/?originalSubdomain=cl"><img src="./img/linkedin-ico-c.svg" alt="icono linkedin"></a>
+        </div>
+      </div>
+    </footer>
+    <div class="container-basic color-a">
+      <div class="subfooter-wrapper">
+        <div class="subfooter-l">
+          <a href="mailto:contacto@tercop.cl">contacto@tercop.cl</a>
+          <span>|</span>
+          <a href="tel:+56912345678">+569 1234 5678</a>
+        </div>
+        <div class="subfooter-r">
+          <a href="https://maps.app.goo.gl/8neVH8wtwzwxz8BNA">Camino la Farfana #400, Pudahuel, Región Metropolitana.</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="back-top-wrapper" id="back-top-id">
+    <button type="button" class="back-top">
+      <img class="back-top-ico" src="./img/back-top.svg" alt="icono volver arriba">
+    </button>
+  </div>
+  <script type="text/javascript" src="./scripts/back-top.js"></script>
+</body>
+
+</html>

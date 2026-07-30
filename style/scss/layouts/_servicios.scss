@@ -1,0 +1,87 @@
+.servicios-main {
+  padding: 80px 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 50px;
+
+  .servicios-main-title {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    align-items: center;
+  
+    img {
+      width: 18px;
+    }
+  }
+}
+
+.servicios-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 100px 0px;
+  justify-items: center;
+
+}
+
+.servicios-card {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 40px;
+
+  img {
+    max-width: 250px;
+  }
+}
+
+.servicios-title-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 20px;
+
+  img {
+    width: 15px;
+    transform: rotate(90deg);
+  }
+}
+
+
+// Mobile - Llamados en _mobile.scss
+
+@mixin servicios--lg() {
+  .servicios-main {
+    gap: 40px;
+  }
+}
+
+@mixin servicios--md() {
+
+  .servicios-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 80px 40px;
+    justify-items: center;
+  }
+}
+
+@mixin servicios--sm() {
+  .servicios-main {
+    padding: 80px 0px;
+    gap: 30px;
+  }
+
+  .servicios-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 60px 0px;
+  }
+
+  .servicios-card {
+    gap: 30px;
+  }
+}
