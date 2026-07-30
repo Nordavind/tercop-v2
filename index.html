@@ -5,9 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tercop | Transporte, logística, cadena de suministro y almacenamiento.</title>
-  <meta name="description" content="Nos enfocamos en transformar tus procesos logísticos en ventajas competitivas para tu negocio.">
-  <meta name="keywords" content="solución, logística, almacenaje, contenedores, deposito, transporte, servicio a la carga">
+  <meta name="description"
+    content="Nos enfocamos en transformar tus procesos logísticos en ventajas competitivas para tu negocio.">
+  <meta name="keywords"
+    content="solución, logística, almacenaje, contenedores, deposito, transporte, servicio a la carga">
   <link rel="icon" href="./img/favico.png" type="image/x-icon">
+  <!-- Swiper CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script defer src="./scripts/swiper.js"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="./style/style.css">
 </head>
@@ -16,8 +23,10 @@
   <main>
     <header>
       <div class="lang-bar">
-        <a class="activo" href="./index.html">Español</a>
-        <a href="./en/index.html">English</a>
+        <a href="http://transdepot.tercop.cl/transdepot.portal/#!/Appointment/MainSchedule/">Portal Clientes</a>
+        <a href="./documents/tercop-spa-2800.pdf">ISO 28000</a>
+        <!-- <a class="activo" href="./index.html">Español</a> -->
+        <!-- <a href="./en/index.html">English</a> -->
       </div>
       <div class="nav-container">
         <div class="nav-left-wrapper">
@@ -40,10 +49,21 @@
         </nav>
       </div>
     </header>
-    <figure class="container-hero hero-1">
+    
+    <figure class="container-slider">
       <div class="slice-detail-header-a"></div>
       <div class="slice-detail-header-b"></div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide-1"></div>
+          <div class="swiper-slide swiper-slide-2"></div>
+          <div class="swiper-slide swiper-slide-3"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </figure>
+
+
     <section class="container-basic color-a">
       <div class="square-section ss-left">
         <p>Somos</p>
@@ -67,6 +87,14 @@
         </div>
       </div>
       <img class="square-detail-img" src="./img/square-ico-c.svg" alt="icono cuadrado adorno">
+    </section>
+    <section class="container-basic color-a">
+      <div class="video-section">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/jcNuEWUhbJs" title="YouTube video player" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
     </section>
     <section class="container-basic color-b">
       <div class="slice-detail up-right slice-detail-color-secondary"></div>
@@ -162,17 +190,26 @@
         <a class="img-link" href="https://sodimac.falabella.com/"><img src="./img/logos/sodimac.svg" alt="sodimac"></a>
         <a class="img-link" href="https://www.ikea.com/cl/es/"><img src="./img/logos/ikea.svg" alt="ikea"></a>
         <a class="img-link" href="https://www.derco.cl/"><img src="./img/logos/derco.svg" alt="derco"></a>
-        <a class="img-link" href="https://www.falabella.com/falabella-cl"><img src="./img/logos/falabella.svg" alt="falabella"></a>
+        <a class="img-link" href="https://www.falabella.com/falabella-cl"><img src="./img/logos/falabella.svg"
+            alt="falabella"></a>
         <a class="img-link" href="https://www.walmartchile.cl/"><img src="./img/logos/wallmart.svg" alt="wallmart"></a>
-        <a class="img-link" href="https://tottus.falabella.com/tottus-cl"><img src="./img/logos/tottus.svg" alt="tottus"></a>
-        <a class="img-link" href="https://www.dpworld.com/es/chile"><img src="./img/logos/dp-world.svg" alt="dp world"></a>
+        <a class="img-link" href="https://tottus.falabella.com/tottus-cl"><img src="./img/logos/tottus.svg"
+            alt="tottus"></a>
+        <a class="img-link" href="https://www.dpworld.com/es/chile"><img src="./img/logos/dp-world.svg"
+            alt="dp world"></a>
         <a class="img-link" href="https://www.msc.com/en"><img src="./img/logos/msc.svg" alt="msc"></a>
-        <a class="img-link" href="https://empresasperrot.cl/"><img src="./img/logos/perrot.svg" alt="empresas perrot"></a>
-        <a class="img-link" href="https://www.andesindustrial.cl/"><img src="./img/logos/andes-logo.svg" alt="andres industrial"></a>
-        <a class="img-link" href="https://cannonhome.cl/"><img src="./img/logos/canon-home-logo.webp" alt="cannon home"></a>
-        <a class="img-link" href="https://www.loscedrosaviacion.cl/"><img src="./img/logos/los-cedros-aviacion.svg" alt="los cedros aviacion"></a>
-        <a class="img-link" href="https://fluxsolar.cl/"><img src="./img/logos/flux-solar-logo.webp" alt="flux solar copec"></a>
-        <a class="img-link" href="https://www.transmares.cl/"><img src="./img/logos/transmares-logo.webp" alt="transmares"></a>
+        <a class="img-link" href="https://empresasperrot.cl/"><img src="./img/logos/perrot.svg"
+            alt="empresas perrot"></a>
+        <a class="img-link" href="https://www.andesindustrial.cl/"><img src="./img/logos/andes-logo.svg"
+            alt="andres industrial"></a>
+        <a class="img-link" href="https://cannonhome.cl/"><img src="./img/logos/canon-home-logo.webp"
+            alt="cannon home"></a>
+        <a class="img-link" href="https://www.loscedrosaviacion.cl/"><img src="./img/logos/los-cedros-aviacion.svg"
+            alt="los cedros aviacion"></a>
+        <a class="img-link" href="https://fluxsolar.cl/"><img src="./img/logos/flux-solar-logo.webp"
+            alt="flux solar copec"></a>
+        <a class="img-link" href="https://www.transmares.cl/"><img src="./img/logos/transmares-logo.webp"
+            alt="transmares"></a>
       </div>
     </section>
     <figure class="container-hero hero-3">
@@ -207,8 +244,10 @@
           </form>
         </div>
         <div class="rrss-footer">
-          <a href="https://www.instagram.com/tercop.spa/"><img src="./img/instagram-ico-c.svg" alt="icono instagram"></a>
-          <a href="https://www.linkedin.com/company/tercop/?originalSubdomain=cl"><img src="./img/linkedin-ico-c.svg" alt="icono linkedin"></a>
+          <a href="https://www.instagram.com/tercop.spa/"><img src="./img/instagram-ico-c.svg"
+              alt="icono instagram"></a>
+          <a href="https://www.linkedin.com/company/tercop/?originalSubdomain=cl"><img src="./img/linkedin-ico-c.svg"
+              alt="icono linkedin"></a>
         </div>
       </div>
     </footer>
@@ -220,7 +259,8 @@
           <a href="tel:+56912345678">+569 1234 5678</a>
         </div>
         <div class="subfooter-r">
-          <a href="https://maps.app.goo.gl/8neVH8wtwzwxz8BNA">Camino la Farfana #400, Pudahuel, Región Metropolitana.</a>
+          <a href="https://maps.app.goo.gl/8neVH8wtwzwxz8BNA">Camino la Farfana #400, Pudahuel, Región
+            Metropolitana.</a>
         </div>
       </div>
     </div>

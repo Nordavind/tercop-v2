@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 
   &.ss-left {
     top: -115px;
@@ -53,6 +54,7 @@
   height: 40px;
   background-color: $color-secondary;
   position: absolute;
+  z-index: 9;
 }
 
 .slice-detail-header-b {
@@ -61,6 +63,7 @@
   background-color: $color-secondary;
   position: absolute;
   left: 220px;
+  z-index: 9;
 }
 
 .slice-detail {

@@ -119,13 +119,13 @@
     }
 
     li {
-      padding: 0 40px; // padding izquierdo
+      padding: 0 40px;
     }
   }
 
   .nav-right-wrapper {
     position: absolute;
-    z-index: 2; // actualmente sobre todos los elementos
+    z-index: 10;
     background-color: $color-secondary;
     width: 100%;
     position: absolute;
@@ -137,7 +137,7 @@
 
     &.open {
       height: 370px;
-      padding: 40px 0; // padding superior
+      padding: 40px 0;
     }
   }
 

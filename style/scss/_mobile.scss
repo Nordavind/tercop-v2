@@ -28,6 +28,7 @@
   @include quienes-somos--lg(); // layouts/_quienes-somos.scss
   @include servicios--lg(); // layouts/_tecnologia.scss
   @include clientes--lg(); // layouts/_clientes.scss
+  @include video-section--lg(); // layouts/_video-section.scss
 }
 
 // Medium (md)
@@ -41,6 +42,7 @@
   @include tecnologia--md(); // layouts/_tecnologia.scss
   @include servicios--md(); // layouts/_tecnologia.scss
   @include clientes--md(); // layouts/_clientes.scss
+  @include video-section--md(); // layouts/_video-section.scss
 }
 
 // Small (sm)
@@ -58,4 +60,6 @@
   @include clients-three-col--sm(); // layouts/_clients-three-col.scss
   @include tecnologia--sm(); // layouts/_tecnologia.scss
   @include servicios--sm(); // layouts/_tecnologia.scss
+  @include video-section--sm(); // layouts/_video-section.scss
+  @include slider-section--sm(); // layouts/_slider-section.scss
 }
