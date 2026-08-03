@@ -18,8 +18,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  // slides home
   &-1 {
-    background: $color-secondary url(../img/hero-1-des.webp) center center/auto no-repeat scroll;
+    background: $color-secondary url(../img/swiper/home-img-1.webp) center center/auto no-repeat scroll;
   }
 
   &-2 {
@@ -27,6 +28,19 @@
   }
 
   &-3 {
+    background: $color-secondary url(../img/hero-2-des.webp) center center/auto no-repeat scroll;
+  }
+
+  // slide nosotros
+  &-4 {
+    background: $color-secondary url(../img/hero-1-des.webp) center center/auto no-repeat scroll;
+  }
+
+  &-5 {
+    background: $color-secondary url(../img/hero-2-des.webp) center center/auto no-repeat scroll;
+  }
+
+  &-6 {
     background: $color-secondary url(../img/hero-3-des.webp) center center/auto no-repeat scroll;
   }
 }
