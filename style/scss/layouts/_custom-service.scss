@@ -1,0 +1,43 @@
+.custom-service-wrapper {
+  padding-block: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 30px;
+
+  .custom-service-title {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    align-items: center;
+
+    h2 {
+      font-size: 2.5rem;
+      line-height: 3.0rem;
+      letter-spacing: 0.03rem;
+      font-weight: 400;
+      color: $color-wht;
+    }
+  }
+
+  p {
+    font-family: $font-uno;
+    color: $color-wht;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    font-weight: 300;
+  }
+}
+
+// Mobile - Llamados en _mobile.scss
+@mixin custom-service--md() {
+  .custom-service-wrapper {
+    .custom-service-title {
+      flex-flow: column nowrap;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}

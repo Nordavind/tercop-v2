@@ -4,64 +4,64 @@
   position: relative;
   overflow: hidden;
 
-  &.hero-1 { // index 1
-    height: 450px;
-    background: $color-gray url(../img/hero-1-des.webp) right center/auto no-repeat scroll;
-  }
+  // &.hero-1 { // index 1
+  //   height: 450px;
+  //   background: $color-gray url(../img/hero-1-des.webp) right center/auto no-repeat scroll;
+  // }
 
   &.hero-2 { // index 2
     height: 450px;
-    background: $color-gray url(../img/hero-2-des.webp) center center/auto no-repeat scroll;
+    background: $color-gray url(../img/hero-2-des.webp) center / cover no-repeat;
   }
 
   &.hero-3 { // index 3
     height: 450px;
-    background: $color-gray url(../img/hero-3-des.webp) center center/auto no-repeat scroll;
+    background: $color-gray url(../img/hero-3-des.webp) center / cover no-repeat;
   }
 
-  &.hero-4 { // Quienes Somos 1
-    height: 450px;
-    background: $color-gray url(../img/hero-3-des.webp) center center/auto no-repeat scroll;
-  }
+  // &.hero-4 { // Quiénes somos 1
+  //   height: 450px;
+  //   background: $color-gray url(../img/hero-3-des.webp) center center/auto no-repeat scroll;
+  // }
 
-  &.hero-5 { // Terminal 1
-    height: 450px;
-    background: $color-gray url(../img/hero-5-des.webp) center center/auto no-repeat scroll;
-  }
+  // &.hero-5 { // Terminal 1
+  //   height: 450px;
+  //   background: $color-gray url(../img/hero-5-des.webp) center center/auto no-repeat scroll;
+  // }
 
-  &.hero-6 { // Tecnologia 1
-    height: 450px;
-    background: $color-gray url(../img/hero-6-des.webp) center center/auto no-repeat scroll;
-  }
+  // &.hero-6 { // Tecnologia 1
+  //   height: 450px;
+  //   background: $color-gray url(../img/hero-6-des.webp) center center/auto no-repeat scroll;
+  // }
 
   &.hero-7 { // Tecnologia 2
     height: 450px;
-    background: $color-gray url(../img/hero-7-des.webp) center center/auto no-repeat scroll;
+    background: $color-gray url(../img/hero-7-des.webp) center / cover no-repeat;
   }
 
-  &.hero-8 { // Servicios 1
-    height: 450px;
-    background: $color-gray url(../img/hero-8-des.webp) center center/auto no-repeat scroll;
-  }
+  // &.hero-8 { // Servicios 1
+  //   height: 450px;
+  //   background: $color-gray url(../img/hero-8-des.webp) center / cover no-repeat;
+  // }
 
   &.hero-9 { // Servicios 2
     height: 450px;
-    background: $color-gray url(../img/hero-9-des.webp) center center/auto no-repeat scroll;
+    background: $color-gray url(../img/hero-9-des.webp) center / cover no-repeat;
   }
 
   &.hero-10 { // Clientes 1
     height: 450px;
-    background: $color-gray url(../img/hero-7-des.webp) center center/auto no-repeat scroll;
+    background: $color-gray url(../img/hero-10-des.webp) center / cover no-repeat;
   }
 
   &.hero-11 { // Clientes 2
     height: 450px;
-    background: $color-gray url(../img/hero-3-des.webp) center center/auto no-repeat scroll;
+    background: $color-gray url(../img/hero-11-des.webp) center / cover no-repeat;
   }
 
   &.hero-12 { // Contacto 1
     height: 450px;
-    background: $color-gray url(../img/hero-12-des.webp) center center/auto no-repeat scroll;
+    background: $color-gray url(../img/hero-12-des.webp) center / cover no-repeat;
   }
 }
 
@@ -71,48 +71,48 @@
 @mixin heros--sm() {
   .container-hero {
 
-    &.hero-1 {
-      background: $color-gray url(../img/hero-1-mob.webp) left center/auto no-repeat scroll;
-    }
+    // &.hero-1 {
+    //   background: $color-gray url(../img/hero-1-mob.webp) left center/auto no-repeat scroll;
+    // }
   
     &.hero-2 {
-      background: $color-gray url(../img/hero-2-mob.webp) center center/auto no-repeat scroll;
+      background: $color-gray url(../img/hero-2-mob.webp) center / cover no-repeat;
     }
   
     &.hero-3 {
-      background: $color-gray url(../img/hero-3-mob.webp) center center/auto no-repeat scroll;
+      background: $color-gray url(../img/hero-3-mob.webp) center / cover no-repeat;
     }
 
-    &.hero-4 {
-      background: $color-gray url(../img/hero-3-mob.webp) center center/auto no-repeat scroll;
-    }
+    // &.hero-4 {
+    //   background: $color-gray url(../img/hero-3-mob.webp) center center/auto no-repeat scroll;
+    // }
   
-    &.hero-5 {
-      background: $color-gray url(../img/hero-5-mob.webp) center center/auto no-repeat scroll;
-    }
+    // &.hero-5 {
+    //   background: $color-gray url(../img/hero-5-mob.webp) center center/auto no-repeat scroll;
+    // }
 
-    &.hero-6 {
-      background: $color-gray url(../img/hero-6-mob.webp) center center/auto no-repeat scroll;
-    }
+    // &.hero-6 {
+    //   background: $color-gray url(../img/hero-6-mob.webp) center center/auto no-repeat scroll;
+    // }
 
     &.hero-7 {
-      background: $color-gray url(../img/hero-7-mob.webp) left center/auto no-repeat scroll;
+      background: $color-gray url(../img/hero-7-mob.webp) center / cover no-repeat;
     }
 
-    &.hero-8 {
-      background: $color-gray url(../img/hero-8-mob.webp) left center/auto no-repeat scroll;
-    }
+    // &.hero-8 {
+    //   background: $color-gray url(../img/hero-8-mob.webp) center / cover no-repeat;
+    // }
 
     &.hero-9 {
-      background: $color-gray url(../img/hero-9-mob.webp) center center/auto no-repeat scroll;
+      background: $color-gray url(../img/hero-9-mob.webp) center / cover no-repeat;
     }
 
     &.hero-10 {
-      background: $color-gray url(../img/hero-7-mob.webp) center center/auto no-repeat scroll;
+      background: $color-gray url(../img/hero-10-mob.webp) center / cover no-repeat;
     }
 
     &.hero-11 {
-      background: $color-gray url(../img/hero-3-mob.webp) center center/auto no-repeat scroll;
+      background: $color-gray url(../img/hero-11-mob.webp) center / cover no-repeat;
     }
 
     &.hero-12 {

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quienes Somos - Tercop</title>
+  <title>Quiénes somos - Tercop</title>
   <meta name="description"
     content="Somos el mejor equipo de talentos logísticos y tecnológicos al servicio de nuestros clientes.">
   <link rel="icon" href="./img/favico.png" type="image/x-icon">
@@ -13,6 +13,12 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <!-- Swiper JS -->
   <script defer src="./scripts/swiper.js"></script>
+  <!-- GLightbox -->
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="./style/style.css">
 </head>
@@ -37,7 +43,7 @@
         <nav id="navbar-id" class="nav-right-wrapper">
           <ul>
             <li><a href="./index.html">Inicio</a></li>
-            <li><a class="activo" href="./nosotros.html">Quienes somos</a></li>
+            <li><a class="activo" href="./nosotros.html">Quiénes somos</a></li>
             <li><a href="./terminal.html">Terminal</a></li>
             <li><a href="./tecnologia.html">Tecnología</a></li>
             <li><a href="./servicios.html">Servicios</a></li>
@@ -47,16 +53,15 @@
         </nav>
       </div>
     </header>
-
     <figure class="container-slider">
       <div class="slice-detail-header-a"></div>
       <div class="slice-detail-header-b"></div>
       <div class="slice-detail down-left slice-detail-color-secondary"></div>
       <div class="swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide swiper-slide-1"></div>
-          <div class="swiper-slide swiper-slide-2"></div>
-          <div class="swiper-slide swiper-slide-3"></div>
+          <div class="swiper-slide swiper-slide-4"></div>
+          <div class="swiper-slide swiper-slide-5"></div>
+          <div class="swiper-slide swiper-slide-6"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -80,7 +85,7 @@
     </section>
     <section class="container-basic color-c">
       <div class="mision-vision-wrapper">
-        <div class="mis-vis-wrapper mis-vis-wrapper-reverse">
+        <div class="mis-vis-wrapper mis-vis-wrapper-reverse" data-aos="fade-left" data-aos-delay="0">
           <h2 class="h2-mis-vis h2-mis-vis-r">Nos apasiona <span>emprender</span>, hacer más <span>simple</span> la vida
             de nuestros
             clientes, <span>potenciar</span> a nuestras personas y
@@ -92,7 +97,7 @@
             <img src="./img/square-ico-w.svg" alt="icono cuadrado adorno">
           </div>
         </div>
-        <div class="mis-vis-wrapper">
+        <div class="mis-vis-wrapper" data-aos="fade-right" data-aos-delay="0">
           <div class="square-section mis-vis-square">
             <p>Visión</p>
             <img src="./img/square-ico-w.svg" alt="icono cuadrado adorno">
@@ -108,42 +113,42 @@
     <section class="container-basic color-b container-w-title">
       <h3 class="h3-basico h3-basico-l">Valores</h3>
       <div class="valores-wrapper">
-        <div class="valores-item">
+        <div class="valores-item" data-aos="fade-right" data-aos-delay="0">
           <h4>Innovación</h4>
           <img class="chevron-mis-vis" src="./img/chevron-r-br.svg" alt="icono chevron adorno">
           <p class="p-valores">Impulsamos soluciones creativas que excedan las
             expectativas de nuestros clientes.</p>
         </div>
-        <div class="valores-item">
+        <div class="valores-item" data-aos="fade-right" data-aos-delay="0">
           <h4>Pasión</h4>
           <img class="chevron-mis-vis" src="./img/chevron-r-br.svg" alt="icono chevron adorno">
           <p class="p-valores">Tenemos una fuente de energía que nos motiva
             y mueve diariamente.</p>
         </div>
-        <div class="valores-item">
+        <div class="valores-item" data-aos="fade-right" data-aos-delay="0">
           <h4>Excelencia</h4>
           <img class="chevron-mis-vis" src="./img/chevron-r-br.svg" alt="icono chevron adorno">
           <p class="p-valores">Entregamos un servicio altamente confiable,
             visible y medible.</p>
         </div>
-        <div class="valores-item">
+        <div class="valores-item" data-aos="fade-right" data-aos-delay="0">
           <h4>Equipo</h4>
           <img class="chevron-mis-vis" src="./img/chevron-r-br.svg" alt="icono chevron adorno">
           <p class="p-valores">Potenciar el desarrollo de nuestras personas,
             fomentando el trabajo en equipo.</p>
         </div>
-        <div class="valores-item">
+        <div class="valores-item" data-aos="fade-right" data-aos-delay="0">
           <h4>Seguridad</h4>
           <img class="chevron-mis-vis" src="./img/chevron-r-br.svg" alt="icono chevron adorno">
           <p class="p-valores">Velamos por la salud física y psicológica de
             nuestras personas.</p>
         </div>
-        <div class="valores-item">
+        <div class="valores-item" data-aos="fade-right" data-aos-delay="0">
           <h4>Integridad</h4>
           <img class="chevron-mis-vis" src="./img/chevron-r-br.svg" alt="icono chevron adorno">
           <p class="p-valores">Hacer lo correcto, siempre.</p>
         </div>
-        <div class="valores-item">
+        <div class="valores-item" data-aos="fade-right" data-aos-delay="0">
           <h4>Protagonista</h4>
           <img class="chevron-mis-vis" src="./img/chevron-r-br.svg" alt="icono chevron adorno">
           <p class="p-valores">Hacemos que la cosas pasen, proactivamente.</p>
@@ -155,45 +160,108 @@
       <div id="nuestro-equipo" class="slice-detail up-right slice-detail-color-primary"></div>
       <h3 class="h3-basico h3-basico-c">Equipo</h3>
       <div class="equipo-wrapper">
-        <div class="equipo-item">
-          <div class="equipo-img"></div>
+        <div class="equipo-item" data-aos="fade-right" data-aos-delay="0">
+          <div class="equipo-img julio"></div>
           <div class="equipo-nombre">
             <h5>Julio Ramírez V.</h5>
             <p class="equipo-cargo">Socio</p>
           </div>
           <ul>
-            <li>Más de 25 años de experiencia en las industrias logística, marítima y portuaria.</li>
+            <li>Más de 30 años de experiencia en las industrias logística, marítima y portuaria.</li>
             <li>Ejecutivo y Director de empresas de Servicios Logísticos tanto en Chile como en LATAM.</li>
-            <li>Ex Gerente General de Sitrans y Ultramar Agencia Marítima.</li>
+            <li>Ex Gerente General de Sitrans y Ultramar Agencia Marítima en Chile y Ex Sub GG Neptunia en Perú.</li>
             <li>Ingeniero Comercial UDP, MBA Warwick Business School (UK), AMP Harvard Business School (USA).</li>
           </ul>
         </div>
-        <div class="equipo-item">
-          <div class="equipo-img"></div>
+        <div class="equipo-item" data-aos="fade-right" data-aos-delay="0">
+          <div class="equipo-img raimundo"></div>
           <div class="equipo-nombre">
             <h5>Raimundo Prieto R.</h5>
             <p class="equipo-cargo">Socio</p>
           </div>
           <ul>
             <li>Más de 25 años de experiencia en las industrias logística y portuaria.</li>
-            <li>Ejecutivo y Director de empresas de Servicios Logísticos tanto en Chile y Perú.</li>
-            <li>Ex Gerente Ultramar y actualmente Gerente de Operaciones de BSF.</li>
-            <li>Director ALOG.</li>
+            <li>Presidente ALOG.</li>
+            <li>Gerente Operaciones Bodegas San Francisco.</li>
             <li>Ingeniero Civil Industrial PUC.</li>
           </ul>
         </div>
-        <div class="equipo-item">
-          <div class="equipo-img"></div>
+        <div class="equipo-item" data-aos="fade-right" data-aos-delay="0">
+          <div class="equipo-img roberto"></div>
           <div class="equipo-nombre">
-            <h5>Danilo Soto V.</h5>
-            <p class="equipo-cargo">Socio</p>
+            <h5>Roberto Zilleruelo A.</h5>
+            <p class="equipo-cargo">Director - Asesor</p>
           </div>
           <ul>
-            <li>Más de 15 años de experiencia en las industrias logística y portuaria en Chile.</li>
-            <li>Ex ejecutivo de Sitrans y Ultramar.</li>
-            <li>Jefe de Terminal TERCOP.</li>
-            <li>Ingeniero Civil Informático USACH experto en Tecnología.</li>
+            <li>Más de 35 años de experiencia en las industrias logística, marítima y portuaria.</li>
+            <li>Ejecutivo y Director de empresas de Servicios Logísticos tanto en Chile como en LATAM.</li>
+            <li>Ex Gerente General de TPS, TRANSMARES, PULOGSA, DPW Chile.</li>
+            <li>Ingeniero Civil Industrial USACH, MBA UAI, AMP Harvard Business School (USA).</li>
           </ul>
+        </div>
+        <div class="equipo-item" data-aos="fade-right" data-aos-delay="0">
+          <div class="equipo-img mauricio"></div>
+          <div class="equipo-nombre">
+            <h5>Mauricio Cerda O.</h5>
+            <p class="equipo-cargo">Gerente General</p>
+          </div>
+          <ul>
+            <li>Más de 20 años de experiencia en las industrias logística, portuaria y transporte.</li>
+            <li>Ex Gerente Transportes Nacionales El Libertador (Filial Sitrans, Ultramar).</li>
+            <li>Ingeniero Comercial PUC.</li>
+          </ul>
+        </div>
+        <div class="equipo-item" data-aos="fade-right" data-aos-delay="0">
+          <div class="equipo-img danilo"></div>
+          <div class="equipo-nombre">
+            <h5>Danilo Soto V.</h5>
+            <p class="equipo-cargo">Gerente de Operaciones</p>
+          </div>
+          <ul>
+            <li>Más de 20 años de experiencia en las industrias logística y portuaria en Chile.</li>
+            <li>Ex ejecutivo de Sitrans y Ultramar, donde lideró los procesos comerciales, operacionales y de
+              transformación tecnológica.</li>
+            <li>Ingeniero Civil Informático USACH, experto en Tecnología.</li>
+          </ul>
+        </div>
+        <div class="equipo-item" data-aos="fade-right" data-aos-delay="0">
+          <div class="equipo-img maria"></div>
+          <div class="equipo-nombre">
+            <h5>María José Quezada G.</h5>
+            <p class="equipo-cargo">Gerente Comercial</p>
+          </div>
+          <ul>
+            <li>Más de 15 años liderando áreas comerciales, equipos de venta y negocios.</li>
+            <li>Hoy lidera la gestión comercial de Tercop en el mundo de la logística.</li>
+            <li>Ingeniero Comercial UGM.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="equipo-gallery">
+        <div class="gallery-img-1">
+          <a href="./img/equipo/gal-1.webp" class="glightbox">
+            <img src="./img/equipo/gal-1.webp" alt="Equipo Tercop 1">
+          </a>
+        </div>
+        <div class="gallery-img-2">
+          <a href="./img/equipo/gal-2.webp" class="glightbox">
+            <img src="./img/equipo/gal-2.webp" alt="Equipo Tercop 2">
+          </a>
+        </div>
+        <div class="gallery-img-3">
+          <a href="./img/equipo/gal-3.webp" class="glightbox">
+            <img src="./img/equipo/gal-3.webp" alt="Equipo Tercop 3">
+          </a>
+        </div>
+        <div class="gallery-img-4">
+          <a href="./img/equipo/gal-4.webp" class="glightbox">
+            <img src="./img/equipo/gal-4.webp" alt="Equipo Tercop 4">
+          </a>
+        </div>
+        <div class="gallery-img-5">
+          <a href="./img/equipo/gal-5.webp" class="glightbox">
+            <img src="./img/equipo/gal-5.webp" alt="Equipo Tercop 5">
+          </a>
         </div>
       </div>
       <div class="slice-detail down-left slice-detail-color-secondary"></div>
@@ -253,6 +321,8 @@
     </button>
   </div>
   <script type="text/javascript" src="./scripts/back-top.js"></script>
+  <script>const lightbox = GLightbox();</script>
+  <script>AOS.init({ once: false, });</script>
 </body>
 
 </html>

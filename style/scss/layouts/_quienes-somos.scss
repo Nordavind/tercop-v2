@@ -46,7 +46,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  gap: 0px 60px;
+  gap: 60px 60px;
 }
 
 .equipo-item {
@@ -76,6 +76,30 @@
   width: 150px;
   height: 150px;
   border-radius: 150px;
+
+  &.julio {
+    background: $color-secondary url(../img/equipo/julio.webp) center / cover no-repeat;
+  }
+
+  &.raimundo {
+    background: $color-secondary url(../img/equipo/raimundo.webp) center / cover no-repeat;
+  }
+
+  &.roberto {
+    background: $color-secondary url(../img/equipo/roberto.webp) center / cover no-repeat;
+  }
+
+  &.mauricio {
+    background: $color-secondary url(../img/equipo/mauricio.webp) center / cover no-repeat;
+  }
+
+  &.danilo {
+    background: $color-secondary url(../img/equipo/danilo.webp) center / cover no-repeat;
+  }
+
+  &.maria {
+    background: $color-secondary url(../img/equipo/maria.webp) center / cover no-repeat;
+  }
 }
 
 .equipo-nombre {
@@ -92,6 +116,25 @@
   }
 }
 
+.equipo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 140px;
+
+  .gallery-img-1,
+  .gallery-img-5 {
+    grid-column: span 3;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 
 // Mobile - Llamados en _mobile.scss
 
@@ -105,6 +148,10 @@
   }
 
   .equipo-wrapper {
+    padding-bottom: 100px;
+  }
+
+  .equipo-gallery {
     padding-bottom: 100px;
   }
 }
@@ -162,12 +209,19 @@
 
   .equipo-item {
     gap: 30px;
+
     ul {
-  
+
       li {
         color: $color-gray;
         padding-bottom: 14px;
       }
     }
+  }
+}
+
+@mixin quienes-somos--sm() {
+  .equipo-gallery {
+    gap: 10px;
   }
 }

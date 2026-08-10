@@ -13,6 +13,9 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <!-- Swiper JS -->
   <script defer src="./scripts/swiper.js"></script>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="./style/style.css">
 </head>
@@ -37,7 +40,7 @@
         <nav id="navbar-id" class="nav-right-wrapper">
           <ul>
             <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./nosotros.html">Quienes somos</a></li>
+            <li><a href="./nosotros.html">Quiénes somos</a></li>
             <li><a href="./terminal.html">Terminal</a></li>
             <li><a class="activo" href="./tecnologia.html">Tecnología</a></li>
             <li><a href="./servicios.html">Servicios</a></li>
@@ -53,9 +56,9 @@
       <div class="slice-detail down-left slice-detail-color-secondary"></div>
       <div class="swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide swiper-slide-1"></div>
-          <div class="swiper-slide swiper-slide-2"></div>
-          <div class="swiper-slide swiper-slide-3"></div>
+          <div class="swiper-slide swiper-slide-10"></div>
+          <div class="swiper-slide swiper-slide-11"></div>
+          <div class="swiper-slide swiper-slide-12"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -84,26 +87,26 @@
             <p class="section-title-p">Sistemas</p>
           </div>
           <div class="bullet-line-list">
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
               <p class="bullet-list-p bullet-list-p-gray">Control de Patio de Contenedores.</p>
             </div>
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
-              <p class="bullet-list-p bullet-list-p-gray">Registro de Trasvasije - Fotos y Video.</p>
+              <p class="bullet-list-p bullet-list-p-gray">Servicios a la carga.</p>
             </div>
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
               <p class="bullet-list-p bullet-list-p-gray">Reportes Automáticos de Cierre de Turno.</p>
             </div>
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
-              <p class="bullet-list-p bullet-list-p-gray">APIs y Web Services.</p>
+              <p class="bullet-list-p bullet-list-p-gray">Integración rápida con sistemas de clientes por tecnologías de
+                punta.</p>
             </div>
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
-              <p class="bullet-list-p bullet-list-p-gray">ZiYU - Tracking de Camión.
-              </p>
+              <p class="bullet-list-p bullet-list-p-gray">Agendamiento y acceso digital + tracking de transporte</p>
             </div>
           </div>
         </div>
@@ -124,23 +127,23 @@
             <p class="section-title-p">Equipos</p>
           </div>
           <div class="bullet-line-list">
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
               <p class="bullet-list-p bullet-list-p-gray">Grúas Reachstacker Full.</p>
             </div>
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
               <p class="bullet-list-p bullet-list-p-gray">Grúas TopLifter Empty.</p>
             </div>
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
               <p class="bullet-list-p bullet-list-p-gray">Grúa Horquilla.</p>
             </div>
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
               <p class="bullet-list-p bullet-list-p-gray">Tractocamión.</p>
             </div>
-            <div class="bl-list-item">
+            <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
               <div class="bl-list-ico bl-list-ico-fix-third-corto"></div>
               <p class="bullet-list-p bullet-list-p-gray">Chasis.
               </p>
@@ -208,6 +211,7 @@
     </button>
   </div>
   <script type="text/javascript" src="./scripts/back-top.js"></script>
+  <script>AOS.init({ once: false, });</script>
 </body>
 
 </html>

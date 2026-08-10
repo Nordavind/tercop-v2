@@ -13,6 +13,12 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <!-- Swiper JS -->
   <script defer src="./scripts/swiper.js"></script>
+  <!-- GLightbox -->
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="./style/style.css">
 </head>
@@ -37,7 +43,7 @@
         <nav id="navbar-id" class="nav-right-wrapper">
           <ul>
             <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./nosotros.html">Quienes somos</a></li>
+            <li><a href="./nosotros.html">Quiénes somos</a></li>
             <li><a class="activo" href="./terminal.html">Terminal</a></li>
             <li><a href="./tecnologia.html">Tecnología</a></li>
             <li><a href="./servicios.html">Servicios</a></li>
@@ -53,9 +59,9 @@
       <div class="slice-detail down-left slice-detail-color-secondary"></div>
       <div class="swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide swiper-slide-1"></div>
-          <div class="swiper-slide swiper-slide-2"></div>
-          <div class="swiper-slide swiper-slide-3"></div>
+          <div class="swiper-slide swiper-slide-7"></div>
+          <div class="swiper-slide swiper-slide-8"></div>
+          <div class="swiper-slide swiper-slide-9"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -67,37 +73,43 @@
           <p class="section-title-p">Terminal</p>
         </div>
         <div class="bullet-line-list">
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico"></div>
             <p class="bullet-list-p">TERCOP se ubica dentro del principal terminal de bodegas de Chile (+1.5 millones de
               mts2)</p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico"></div>
             <p class="bullet-list-p">Terreno de 7 hectáreas dentro de Bodegas San Francisco.</p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico"></div>
             <p class="bullet-list-p">Mínima distancia a Puertos de Valparaíso y San Antonio.</p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico"></div>
-            <p class="bullet-list-p">Equidistante a todos los Depósitos Vacíos de Santiago y a sólo 3 KM de MEDLOG.</p>
+            <p class="bullet-list-p">Equidistante a todos los Depósitos Vacíos de Santiago.</p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico"></div>
-            <p class="bullet-list-p">Accesos directos a Rutas 68 y 78 vía Vespucio. Próxima extensión Costanera Norte.
+            <p class="bullet-list-p">Accesos directos a Rutas 68 y 78 vía Avenida Américo Vespucio.
+              Próxima extensión Costanera Norte.
             </p>
           </div>
+        </div>
+        <div class="post-bullet-btn-wrapper">
+          <a class="leer-mas-link glightbox" href="./img/mapa-grafico-tercop.webp">
+            <p>Ver Mapa Gráfico</p>
+          </a>
         </div>
       </div>
       <img class="square-detail-img" src="./img/square-ico-c.svg" alt="icono cuadrado adorno">
     </section>
     <section class="container-map">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.525535922847!2d-70.81178952354838!3d-33.452196297602924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c3c023b0dd2d%3A0xa0948cc1fe56a45!2sTERCOP!5e1!3m2!1ses!2scl!4v1705339988086!5m2!1ses!2scl"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d554920.6635761599!2d-71.05897300081352!3d-33.33993749223833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c3c023b0dd2d%3A0xa0948cc1fe56a45!2sTERCOP%20SpA!5e0!3m2!1ses!2scl!4v1785936995654!5m2!1ses!2scl"
         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </section>
     <section class="container-basic color-b">
       <div class="section-title section-title-interna-b">
@@ -106,28 +118,28 @@
           <p class="section-title-p section-title-p-wht">Seguridad</p>
         </div>
         <div class="bullet-line-list bullet-line-list-wht">
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico bl-list-ico-wht"></div>
             <p class="bullet-list-p bullet-list-p-wht">Accesos Controlados.</p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico bl-list-ico-wht"></div>
             <p class="bullet-list-p bullet-list-p-wht">Central de Alarmas.</p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico bl-list-ico-wht"></div>
             <p class="bullet-list-p bullet-list-p-wht">Videovigilancia (CCTV) Propio y Externo.</p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico bl-list-ico-wht"></div>
             <p class="bullet-list-p bullet-list-p-wht">Guardias 24x7 en puntos de acceso y perimetrales.</p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico bl-list-ico-wht"></div>
             <p class="bullet-list-p bullet-list-p-wht">ISO 28.000: Seguridad en la Cadena de Suministro.
             </p>
           </div>
-          <div class="bl-list-item">
+          <div class="bl-list-item" data-aos="fade-right" data-aos-delay="0">
             <div class="bl-list-ico bl-list-ico-wht"></div>
             <p class="bullet-list-p bullet-list-p-wht">Móviles de Emergencia.
             </p>
@@ -192,6 +204,8 @@
     </button>
   </div>
   <script type="text/javascript" src="./scripts/back-top.js"></script>
+  <script>const lightbox = GLightbox();</script>
+  <script>AOS.init({ once: false, });</script>
 </body>
 
 </html>

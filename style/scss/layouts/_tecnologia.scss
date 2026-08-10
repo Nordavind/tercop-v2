@@ -43,7 +43,7 @@
 }
 
 .tecno-img {
-  background: $color-third  url(../img/tecno-img.webp) left center/auto no-repeat scroll;
+  background: $color-third  url(../img/tecno-img.webp) center / cover no-repeat;
   width: 100%;
   height: 340px;
 }
@@ -90,7 +90,7 @@
   }
 
   .tecno-img {
-    background: $color-third url(../img/tecno-img.webp) center center/auto no-repeat scroll;
+    background: $color-third url(../img/tecno-img.webp) center / cover no-repeat;
   }
 
 }

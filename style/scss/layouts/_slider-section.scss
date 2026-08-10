@@ -20,28 +20,67 @@
 
   // slides home
   &-1 {
-    background: $color-secondary url(../img/swiper/home-img-1.webp) center center/auto no-repeat scroll;
+    background: $color-secondary url(../img/swiper/home-img-1.webp) center / cover no-repeat;
   }
 
   &-2 {
-    background: $color-secondary url(../img/hero-2-des.webp) center center/auto no-repeat scroll;
+    background: $color-secondary url(../img/swiper/home-img-2.webp) center / cover no-repeat;
   }
 
   &-3 {
-    background: $color-secondary url(../img/hero-2-des.webp) center center/auto no-repeat scroll;
+    background: $color-secondary url(../img/swiper/home-img-3.webp) center / cover no-repeat;
   }
 
   // slide nosotros
   &-4 {
-    background: $color-secondary url(../img/hero-1-des.webp) center center/auto no-repeat scroll;
+    background: $color-secondary url(../img/swiper/nosotros-img-1.webp) center / cover no-repeat;
   }
 
   &-5 {
-    background: $color-secondary url(../img/hero-2-des.webp) center center/auto no-repeat scroll;
+    background: $color-secondary url(../img/swiper/nosotros-img-2.webp) center / cover no-repeat;
   }
 
   &-6 {
-    background: $color-secondary url(../img/hero-3-des.webp) center center/auto no-repeat scroll;
+    background: $color-secondary url(../img/swiper/nosotros-img-3.webp) center / cover no-repeat;
+  }
+
+  // slide terminal
+  &-7 {
+    background: $color-secondary url(../img/swiper/terminal-img-1.webp) center / cover no-repeat;
+  }
+
+  &-8 {
+    background: $color-secondary url(../img/swiper/terminal-img-2.webp) center / cover no-repeat;
+  }
+
+  &-9 {
+    background: $color-secondary url(../img/swiper/terminal-img-3.webp) center / cover no-repeat;
+  }
+
+  // slide tecnologia
+  &-10 {
+    background: $color-secondary url(../img/swiper/tecnologia-img-1.webp) center / cover no-repeat;
+  }
+
+  &-11 {
+    background: $color-secondary url(../img/swiper/tecnologia-img-2.webp) center / cover no-repeat;
+  }
+
+  &-12 {
+    background: $color-secondary url(../img/swiper/tecnologia-img-3.webp) center / cover no-repeat;
+  }
+
+  // slide servicios
+  &-13 {
+    background: $color-secondary url(../img/swiper/servicios-img-1.webp) center / cover no-repeat;
+  }
+
+  &-14 {
+    background: $color-secondary url(../img/swiper/servicios-img-2.webp) center / cover no-repeat;
+  }
+
+  &-15 {
+    background: $color-secondary url(../img/swiper/servicios-img-3.webp) center / cover no-repeat;
   }
 }
 

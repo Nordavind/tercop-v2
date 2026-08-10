@@ -29,6 +29,7 @@
   @include servicios--lg(); // layouts/_tecnologia.scss
   @include clientes--lg(); // layouts/_clientes.scss
   @include video-section--lg(); // layouts/_video-section.scss
+  @include cma-partner--lg(); // layouts/_cma-partner.scss
 }
 
 // Medium (md)
@@ -43,6 +44,8 @@
   @include servicios--md(); // layouts/_tecnologia.scss
   @include clientes--md(); // layouts/_clientes.scss
   @include video-section--md(); // layouts/_video-section.scss
+  @include cma-partner--md(); // layouts/_cma-partner.scss
+  @include custom-service--md(); // layouts/_custom-service.scss
 }
 
 // Small (sm)
@@ -57,9 +60,11 @@
   @include post-header--sm(); // layouts/_post-header.scss
   @include icons-horizontal--sm(); // layouts/_icons-horizontal.scss
   @include services-two-col--sm(); // layouts/_services-two-col.scss
+  @include quienes-somos--sm(); // layouts/_quienes-somos.scss
   @include clients-three-col--sm(); // layouts/_clients-three-col.scss
   @include tecnologia--sm(); // layouts/_tecnologia.scss
   @include servicios--sm(); // layouts/_tecnologia.scss
   @include video-section--sm(); // layouts/_video-section.scss
   @include slider-section--sm(); // layouts/_slider-section.scss
+  @include cma-partner--sm(); // layouts/_cma-partner.scss
 }

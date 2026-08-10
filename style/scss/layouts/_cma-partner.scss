@@ -1,0 +1,68 @@
+.partner-wrapper {
+  padding: 140px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: end;
+  gap: 80px;
+
+  &-col-a {
+    & img {
+      width: 250px;
+    }
+  }
+}
+
+.h1-partner-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  gap: 15px;
+
+  & img {
+    padding-top: 12px;
+    width: 17px;
+  }
+}
+
+
+// Mobile - Llamados en _mobile.scss
+
+@mixin cma-partner--lg() {
+  .partner-wrapper {
+    padding: 100px 0;
+    align-items: center;
+    gap: 40px;
+
+    .post-h-col-a {
+      & img {
+        width: 200px;
+      }
+    }
+  }
+}
+
+@mixin cma-partner--md() {
+  .partner-wrapper {
+    flex-flow: column nowrap;
+  }
+}
+
+@mixin cma-partner--sm() {
+  .partner-wrapper {
+    padding: 80px 0;
+    gap: 40px;
+  }
+
+  .partner-wrapper-col-a {
+    & img {
+      padding-top: 20px;
+    }
+  }
+
+  .h2-partner-wrapper {
+    & img {
+      padding-top: 10px;
+    }
+  }
+}
